@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #474245;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+	font-size: 0.2rem;
+}
+body{
+	background: #fff;
+	box-sizing: border-box;
+}
+.mine{
+	width: 100%;
+	height: auto;
+}
+.mineuser{
+    width: 100%;
+    height: 3.5rem;
+    background-image: url(../image/loginbg.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mineuser a{
+	display: block;
+    width:  1.6rem;
+    height: 0.82rem;
+    border: 0.01rem solid #ff4891;
+    font-size: 0.3rem;
+    border-radius: 0.05rem;
+    color: #ff4891;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.user-item{
+	width: 100%;
+	height: 2rem;
+	padding: 0.3rem 0.24rem ;
+}
+.user-item>.user-list{
+	padding: 0.2rem 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.user-list>li{
+	width: 25%;
+	height: 100%;
+	font-size: 0.2rem;
+	color: #4d4d4d;
+	text-align: center;
+	line-height: 0.5rem;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+}
+.user-list>li>span{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.user-list>li>span>i{
+	position: relative;
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.user-list>li>span>i>img{
+	width: 0.5rem;
+	position: absolute;
+	top: -0.12rem;
+	right: -0.6rem;
+}
+.user-plus{
+	height: 1.3rem;
+	padding: 0 0.2rem;
+}
+.nav{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	color: #474245;
+}
+.nav .left{
+	font-size: 0.4rem;
+	display: block;
+	float: left;
+	color: #4D4D4D;
+}
+.nav .right{
+	font-size: 0.2rem;
+	display: block;
+	float: right;
+	color: #969696;
+}
+.money{
+	height: 0.5rem;
+	font-size: 0.2rem;
+	color: #969696;
+}
+.money>span{
+	font-size: 0.1rem;
+	color: #ff4891;
+}
+.plus-item{
+	white-space: nowrap;
+	height: 2rem;
+	padding: 0.3rem;
+}
+.plus-list{
+	width: auto;
+	height: 100%;
+	overflow-x:auto;
+	overflow-y:hidden ;
+	font-size:0.2rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.plus-list::-webkit-scrollbar{
+	display: none;
+}
+.plus-list>li{
+	width: 24%;
+	height: 100%;
+	line-height: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.up{
+	height: 0.55rem;
+	display: block;
+}
+.up>img{
+	width: 0.6rem;
+}
+.down{
+	width: 100%;
+	height: 0.55rem;
+	display: block;
+}
+.active-warp{
+	height: 2rem;
+	padding: 0 0.2rem;
+
+	white-space: nowrap;
+}
+.warp-list{
+	height: 100%;
+	overflow-x:auto;
+	overflow-y:hidden ;
+}
+.warp-list::-webkit-scrollbar{
+	display: none;
+}
+.warp-list>li{
+	width: 46%;
+	display:inline-block;
+	margin-right: 0.1rem;
+}
+.warp-list>li>a>img{
+	width: 100%;
+}
+.list-item{
+	padding: 0 0.2rem 0.8rem 0.3rem;
+}
+.item-list{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+.item-list>li{
+	width: 100%;
+	height: 1.2rem;
+}
+.item-list>li>a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #f0f0f0;
+	font-size: 0.3rem;
+}
+.item-list>li>span:first-child{
+	color: #262626;
+}
+.footer {
+	width: 100%;
+	height: 8%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer > a {
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.912rem;
+}
+
+.footer > a > div {
+	width: 100%;
+	text-align: center;
+}
+
+.footer > a > div > img {
+	width: 0.46rem;
+	height: 0.46rem;
+}
+
+.footer > a > p {
+	height: 0.352rem;
+	width: 100%;
+	font-size: 0.24rem;
+	line-height: 0.352rem;
+	text-align: center;
+	margin: 0;
+}

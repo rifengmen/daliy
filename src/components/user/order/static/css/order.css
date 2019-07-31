@@ -1,0 +1,243 @@
+ html,body {
+	position:relative;
+	height:100%;
+}
+html {
+	overflow:hidden;
+}
+* {
+	padding:0;
+	margin:0;
+}
+span , li , div.order-items {
+	overflow: hidden;
+}
+li {
+	list-style:none;
+}
+body {
+	background:#fff;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:12px;
+}
+ .swiper-container{
+	 width: 100%;
+ }
+ .home-box {
+	position:absolute;
+	top:0;
+	z-index:5;
+	width:100%;
+	background:#fff;
+}
+.home-box>.header{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1rem;
+}
+ .home-box>.header>div {
+	 height: 1rem;
+	 font-family: PingFangSC-Regular, sans-serif;
+ }
+ .home-box>.header>div:first-child{
+	 margin-left: 0.24rem;
+ }
+ .home-box>.header>div:first-child, .home-box>.header>div:nth-child(2){
+	 font-size: 0.34rem;
+	 color: #333;
+ }
+ .home-box>.header>div:last-child{
+	 font-size: 0.26rem;
+	 margin-right: 0.24rem;
+ }
+ #nav {
+	border-top:1px solid #ebebeb;
+}
+#nav .swiper-slide span {
+	margin:0 5px;
+	text-align:center;
+	display:block;
+	line-height:2.5;
+	font-size:14px;
+	color:#333333;
+}
+
+.order-body {
+	height: 12.34rem;
+	overflow-y: auto;
+}
+
+#nav .bar {
+	width:50px;
+	height:3px;
+	position:absolute;
+	bottom:0;
+}
+#nav .bar .color {
+	width:36px;
+	margin:0 auto;
+	height:3px;
+	background:#ff4891;
+}
+.hahaha{
+	padding-top: 0.5rem;
+}
+#page {
+	margin-bottom:50px;
+	height:100%;
+}
+#page .slidepage {
+	height:100%;
+}
+.scroll {
+	height:100%;
+}
+.slidescroll {
+	height:auto;
+}
+#footer {
+	position:fixed;
+	bottom:0;
+	z-index:5;
+}
+ .banner1-info > .order-nav-box {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+ }
+ .banner1-info div.items-nav {
+	 width: 100%;
+	 height: 100%;
+	 text-align: center;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+ }
+ .banner1-info div.items-nav > span {
+	 margin-right: 0;
+ }
+ .banner1-info div.bar {
+	 width: 25%;
+	 height: 0.02rem;
+	 transition: .5s;
+ }
+ .banner1-info div.items-nav.hot:nth-child(1) ~ .bar {
+	transform: translateX(0);
+}
+ .banner1-info div.items-nav.hot:nth-child(2) ~ .bar {
+	 transform: translateX(100%);
+ }
+ .banner1-info div.items-nav.hot:nth-child(3) ~ .bar {
+	 transform: translateX(200%);
+ }
+ .banner1-info div.items-nav.hot:nth-child(4) ~ .bar {
+	 transform: translateX(300%);
+ }
+
+.dingdanbaoguo{
+	height: 100%;
+	width: 100%;
+	background-color: #F8F8F8;
+}
+.dingdingdandan{
+	width: 100%;
+	background-color: #fff;
+	padding: 0 0.24rem;
+}
+.ddddtop{
+	width: 100%;
+	border-bottom: 1px solid #EAEAEA;
+}
+.ddddtop>span:first-child{
+	float: left;
+	font-size: 0.38rem;
+	line-height: 1rem;
+	margin-left: 0.24rem;
+}
+ .ddstatus{
+	 float: right;
+	 font-size: 0.24rem;
+	 color: #FF478D;
+	 line-height: 1rem;
+	 margin-right: 0.24rem;
+ }
+.ddctime{
+	float: right;
+	font-size: 0.28rem;
+	color: #ADADAD;
+	line-height: 1rem;
+	margin-right: 0.24rem;
+}
+.ddddmid>div:first-child{
+	width: 100%;
+	padding-top: 0.25rem;
+}
+ .ddddmid>div:first-child>img:first-child{
+	 margin-left: 0.24rem;
+ }
+.ddddmid>div:first-child>img{
+	width: 1.55rem;
+	height: 1.55rem;
+	float: left;
+	margin-right: 0.24rem;
+}
+.ddddmid>div:nth-child(2){
+	height: 0.8rem;
+	padding-right: 0.24rem;
+	font-size: 0.3rem;
+	font-weight: 500;
+	text-align: right;
+	border-bottom: 1px solid #EAEAEA;
+}
+.ddddbottom{
+	width: 100%;
+	height: 2rem ;
+	text-align: right;
+}
+.zailai{
+	display: inline-block;
+	width: 1.35rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #FF98c2;
+	border: 1px solid #FF98c2;
+	border-radius: 0.3rem;
+	margin-right: 0.24rem;
+	margin-top: 0.24rem;
+}
+.shenqing,.linghongbao{
+	display: inline-block;
+	width: 1.35rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #333333;
+	border: 1px solid #E2E2E2;
+	border-radius: 0.3rem;
+	margin-right: 0.24rem;
+	margin-top: 0.24rem;
+}
+.gengduo{
+	display: inline-block;
+	font-size: 0.24rem;
+	margin-right: 0.24rem;
+}
+.swiper-wrapper.xixixi{
+	background-color: #F8F8F8;
+}
+.jiazai{
+	width: 100%;
+	height: 1.5rem;
+	font-size: 0.34rem;
+	color: #5C5C5C;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5rem;
+}

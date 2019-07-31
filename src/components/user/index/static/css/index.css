@@ -1,0 +1,360 @@
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.home-box {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .24rem;
+    background: #ffffff;
+    z-index: 2;
+    font-size: 0.26rem;
+}
+
+.dropdown {
+    width: 20%;
+    height: .5rem;
+    margin-top: .1rem;
+}
+
+.header > input {
+    width: 50%;
+    height: 0.6rem;
+    border-radius: 0.3rem ;
+    border: 0.02rem solid #E6E6E6;
+    padding-left: 0.24rem;
+    outline-style: none;
+}
+
+/*内容部分*/
+.body {
+    width: 100%;
+    height: 84%;
+    /*margin-top: 15%;*/
+}
+
+.banner1-info {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    border-bottom: .01rem solid #dddddd;
+    position: relative;
+    background: #ffffff;
+
+}
+
+.banner1-info span {
+    font-size: 0.26rem;
+    color: #333333;
+}
+
+.banner1-info .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner1-info .bar {
+    height: 0.04rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.banner1-info .bar > span {
+    display: block;
+    width: 80%;
+    height: 100%;
+    background: #ff4891;
+    margin: 0 auto;
+}
+
+.banner1-btn {
+    z-index: 1;
+    width: 14%;
+    height: 100%;
+    padding: 0 .24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner1-btn > i {
+    position: absolute;
+    font-size: .36rem;
+}
+
+.second {
+    display: none;
+}
+
+.banner2 {
+    width: 100%;
+    height: 92%;
+}
+
+.swiper-wrapper, .swiper-slide {
+    height: 100%;
+}
+
+.slide1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    width: auto;
+    height: auto;
+}
+
+.banner3 {
+    width: 100%;
+    height: 7rem;
+}
+
+.lantern {
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .24rem;
+    margin: .24rem 0;
+}
+
+.lantern-item {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lantern-item > img {
+    width: 100%;
+    height: 80%;
+}
+
+.lantern-item > p {
+    flex: 1;
+    margin: 0;
+    font-size: .18rem;
+}
+
+.view-card {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .24rem;
+    margin-bottom: .24rem;
+}
+
+.view-card > img {
+    height: 100%;
+    width: 48%;
+}
+
+.view-banner {
+    width: 100%;
+    height: 2.4rem;
+}
+
+.view-banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    height: 10.3rem;
+    overflow: hidden;
+}
+
+.shop-list {
+    width: 100%;
+    height: auto;
+    padding: 0 .24rem;
+}
+
+.shop-list > li {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: .36rem 0;
+    border-bottom: .01rem solid #dddddd;
+}
+
+.shop-list > li > a {
+    width: 30%;
+    height: 100%;
+    margin-right: .24rem;
+}
+
+.shop-list > li > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.list-content {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-title > p {
+    margin: 0;
+}
+
+.sub-title {
+    font-size: .36rem;
+    color: #474245;
+    text-align: left;
+}
+
+.mess-title {
+    font-size: 0.24rem;
+    color: #969696;
+    text-align: left;
+}
+
+.item-txt {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.item-txt > span {
+    display: flex;
+    align-items: center;
+    padding: 0 .02rem;
+    border: .01rem solid rgb(245, 159, 193);
+    margin-right: .08rem;
+    color: rgb(245, 159, 193);
+    font-size: .2rem;
+}
+
+.price-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.now-price {
+    color: rgb(255, 72, 145);
+    font-size: .36rem;
+}
+
+.bef-price {
+    color: rgb(150, 150, 150);
+    font-size: .3rem;
+}
+
+.price-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add {
+    background: rgb(255, 72, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .36rem;
+    height: .36rem;
+    border-radius: 50%;
+}
+
+.add > i {
+    font-size: .2rem;
+    color: #ffffff;
+}
+
+.jian {
+    border: .01rem solid rgb(255, 72, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .36rem;
+    height: .36rem;
+    border-radius: 50%;
+}
+
+.jian > i {
+    font-size: .2rem;
+    color: rgb(255, 72, 145);
+}
+
+.shop-car {
+    background: rgb(255, 72, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+}
+
+.shop-car > i {
+    font-size: .2rem;
+    color: #ffffff;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(247, 247, 250, 0.95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+.footer > a {
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.912rem;
+}
+
+.footer > a > div {
+    width: 100%;
+    text-align: center;
+}
+
+.footer > a > div > img {
+    width: 0.46rem;
+    height: 0.46rem;
+}
+
+.footer > a > p {
+    height: 0.352rem;
+    width: 100%;
+    font-size: 0.24rem;
+    line-height: 0.352rem;
+    text-align: center;
+    margin: 0;
+}
+
